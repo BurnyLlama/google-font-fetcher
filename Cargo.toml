@@ -1,0 +1,10 @@
+[package]
+name = "google-font-fetcher"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+inline_colorization = "0.1.6"
+reqwest = { version = "0.12", features = ["blocking"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = { version = "1" }

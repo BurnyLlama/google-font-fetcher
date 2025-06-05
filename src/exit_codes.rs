@@ -1,0 +1,4 @@
+pub const EXIT_CODE_INVALID_FONT_NAME: i32 = 1;
+pub const EXIT_CODE_INVALID_FONT_MANIFEST: i32 = 2;
+pub const EXIT_CODE_FILE_IO_ERROR: i32 = 3;
+pub const EXIT_CODE_NET_ERROR: i32 = 4;
